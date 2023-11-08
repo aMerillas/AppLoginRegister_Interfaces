@@ -7,7 +7,6 @@
 ![img_2.png](img_2.png)
 
 
-
 **-signUp**: aqui puedes registrarte con tus credenciales y con el boton de registrarte acceder al login para confirmar tu registro y poder acceder al main
 
 
