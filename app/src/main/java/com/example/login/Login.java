@@ -18,8 +18,12 @@ public class Login extends AppCompatActivity {
 
     }
 
-    public void openSignup(View v) {
+    public void openSignup(View view) {
         Intent intent = new Intent(Login.this, Signup.class);
+        startActivity(intent);
+    }
+    public void openMain(View view) {
+        Intent intent = new Intent(Login.this, Main.class);
         startActivity(intent);
     }
 }
