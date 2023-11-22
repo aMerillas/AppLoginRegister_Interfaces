@@ -16,7 +16,11 @@ public class Main extends AppCompatActivity {
         setContentView(R.layout.main);
 
 
-    }
 
+    }
+    public void openSwipeView(View view) {
+        Intent intent = new Intent(Main.this, Swipe.class);
+        startActivity(intent);
+    }
 
 }

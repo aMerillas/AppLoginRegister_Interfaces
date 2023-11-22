@@ -8,59 +8,30 @@
     tools:context=".Main">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:importantForAccessibility="no"
-        android:src="@drawable/river"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622"
-        tools:ignore="ImageContrastCheck,VisualLintBounds" />
-
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="257dp"
-        android:layout_height="280dp"
-        android:layout_marginTop="24dp"
-        android:contentDescription="@string/logo"
-        android:src="@drawable/logo"
-        app:layout_constraintEnd_toEndOf="@id/rightGuideline"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="@id/leftGuideline"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ImageContrastCheck" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/leftGuideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.15" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/rightGuideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.85" />
-
-    <TextView
-        android:id="@+id/mainLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#C6FFA9"
-        android:text="Main en desarrollo :("
-        android:textSize="33sp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="200dp"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toSwipeButton"
+        style="@style/buttonflat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openSwipeView"
+
+        android:text="Sorpréndeme!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

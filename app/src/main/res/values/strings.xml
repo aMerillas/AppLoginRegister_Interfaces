@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Login</string>
+    <string name="app_name">ArbolTech</string>
     <string name="login">login\n</string>
     <string name="signup">signup\n</string>
     <string name="Register">Register</string>

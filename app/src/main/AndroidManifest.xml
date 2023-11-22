@@ -28,6 +28,13 @@
             android:name=".Login"
             android:exported="true"
             />
+
+        <activity
+            android:name=".Swipe"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="true"
+            android:parentActivityName=".Main"
+            />
         <activity
             android:name=".Signup"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
