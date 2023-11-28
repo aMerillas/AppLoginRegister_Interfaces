@@ -6,12 +6,13 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class Swipe2 extends AppCompatActivity {
 
     private SwipeRefreshLayout swipe;
-    private WebView miWeb;
+    private ImageView imgView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,12 +22,6 @@ public class Swipe2 extends AppCompatActivity {
         swipe = findViewById(R.id.refresco);
         swipe.setOnRefreshListener(mOnRefreshListener);
 
-        miWeb = findViewById(R.id.web);
-        registerForContextMenu(miWeb);
-        WebSettings webSettings = miWeb.getSettings();
-        webSettings.setLoadWithOverviewMode(true);
-        webSettings.setUseWideViewPort(true);
-        miWeb.loadUrl("https://thispersondoesnotexist.com/");
     }
 
     protected SwipeRefreshLayout.OnRefreshListener
