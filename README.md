@@ -1,9 +1,11 @@
-# Aplicación con Splash, Login, Register, Main y Swipe..
+# Aplicación con Splash, Login, Register, Main y Swipe.
 
 **-splash-**: Pantalla de entrada a la aplicacion con una imagen de fondo y una animacion del titulo de la app.
 
 
 ![Splash.png](Splash.png)
+
+![blink.gif](blink.gif)
 
 
 **-login**: Te puedes logear con tus credenciales y navegar con el boton login al main, y con el boton register al signUp.
@@ -28,4 +30,14 @@
 
 
 ![SwipeArboles.png](SwipeArboles.png)
+
+
+------------------------------------------------------------------------------------------------
+
+**-PullRequest-**
+
+Se ha rehalizado un pull request a Nacho donde le he añadido la animacion de Blink2 
+
+![PullRequest.png](PullRequest.png)
+
 
