@@ -18,10 +18,12 @@
 
         <WebView
             android:id="@+id/web"
-            android:layout_width="300dp"
-            android:layout_height="500dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".50"
+            android:layout_alignParentBottom="true"
             android:background="@drawable/gradient"
-            android:foregroundGravity="center_vertical|center|center_horizontal">
+            android:foregroundGravity="center_horizontal">
 
         </WebView>
 

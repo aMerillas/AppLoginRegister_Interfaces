@@ -16,7 +16,7 @@ public class SwipeArboles extends AppCompatActivity {
     private SwipeRefreshLayout swipe;
     private WebView miWeb;
     List<Item> items = DataHolder.getItems();
-    String mensaje, url;
+    String mensaje, url ;
 
 
 
@@ -34,7 +34,7 @@ public class SwipeArboles extends AppCompatActivity {
         WebSettings webSettings = miWeb.getSettings();
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
-        miWeb.loadUrl(url);
+        miWeb.loadUrl("https://static.vecteezy.com/system/resources/previews/016/721/112/non_2x/swipe-down-line-color-background-icon-vector.jpg");
     }
 
     public void getArbol(){
@@ -51,7 +51,7 @@ public class SwipeArboles extends AppCompatActivity {
         @Override
         public void onRefresh() {
             getArbol();
-            Toast toast = Toast.makeText(SwipeArboles.this, mensaje, Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(SwipeArboles.this, mensaje, (int) 0.5);
             toast.show();
             miWeb.reload();
             miWeb.loadUrl(url);
