@@ -25,6 +25,7 @@ public class Main extends AppCompatActivity {
         setContentView(R.layout.main);
         recyclerView = findViewById(R.id.recyclerView);
 
+
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new ItemAdapter(getApplicationContext(), getList()));
 
@@ -33,7 +34,8 @@ public class Main extends AppCompatActivity {
     }
 
     public void openSwipeView(View view) {
-        Intent intent = new Intent(Main.this, Swipe.class);
+        DataHolder.setItems(getList());
+        Intent intent = new Intent(Main.this, SwipeArboles.class);
         startActivity(intent);
     }
 

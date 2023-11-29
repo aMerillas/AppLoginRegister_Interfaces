@@ -30,7 +30,13 @@
             />
 
         <activity
-            android:name=".Swipe"
+            android:name=".SwipePersonas"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            android:exported="true"
+            android:parentActivityName=".Main"
+            />
+        <activity
+            android:name=".SwipeArboles"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
             android:exported="true"
             android:parentActivityName=".Main"
