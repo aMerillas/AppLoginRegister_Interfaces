@@ -27,5 +27,5 @@
 **-SwipeArboles-**: Aqui vamos a tener una actividad con la que cada vez que refresquemos vamos a acceder a un registro de nuestra lista y se va a mostrar una imagen con un toast con su nombre.
 
 
-![SwipeArboles.png](Main.png)
+![SwipeArboles.png](SwipeArboles.png)
 
