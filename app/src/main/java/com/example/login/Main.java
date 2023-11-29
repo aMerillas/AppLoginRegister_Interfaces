@@ -65,7 +65,7 @@ class setupList {
         items.add(new Item("Alerce (Larix decidua)", "https://inaturalist-open-data.s3.amazonaws.com/photos/8658087/original.jpg"));
         items.add(new Item("Pino silvestre (Pinus sylvestris)", "https://entresemillas.com/1461-medium_default/pino-silvestre-semillas.jpg"));
         items.add(new Item("Tejo (Taxus baccata)", "https://media.istockphoto.com/id/1192128820/es/foto/taxus-baccata-teew-europeo-es-arbusto-de-con%C3%ADfera.jpg?s=612x612&w=0&k=20&c=uKiaV6JGOy1UKdXAb83h-Wu-0Sqa3S_VVNfVVyeN7X0="));
-        items.add(new Item("Arce de Montpellier (Acer monpesulanus)", "2wCEAAoGCBUVExcVFRUYGBcZGxocGhoaGh8cHBojGhocHB8fGxsfHysjHxwoHRcaJDUkKCwuMjIyGiE3PDcxOysxMi4BCwsLDw4PHRERHTYoIykyMzYzOTYzMTkzMzMzMTExMzE5MzExMTExMTExMTExMTMxMTExMTExMTExMTExMTExMf"));
+        items.add(new Item("Arce de Montpellier (Acer monpesulanus)", "https://i0.wp.com/elmedinaturaldelbages.cat/wp-content/uploads/2017/12/aur__neg.jpg?ssl=1"));
         items.add(new Item("Acacia (Acacia)", "https://media.admagazine.com/photos/63bbd545147955e81067b4f6/master/w_1600%2Cc_limit/acacia-cornigera-hormigas.jpg"));
         items.add(new Item("Acebo (Ilex aquifolium)", "https://www.arbolapp.es/imagenes/especies/especie_033_01.jpg"));
         items.add(new Item("Serbal (Sorbus)", "https://elnougarden.com/cdn/shop/products/Sorbus_aucuparia.jpg?v=1615224027"));
